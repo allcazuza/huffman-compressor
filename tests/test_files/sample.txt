@@ -1,0 +1,8 @@
+Este é um teste do compressor Huffman. Este texto tem bastante repetição
+de letras e palavras, o que é exatamente o cenário onde a compressão de
+Huffman funciona bem: letras frequentes como 'e', 'a' e espaço recebem
+códigos binários curtos, enquanto letras raras recebem códigos mais longos.
+
+Quanto maior e mais repetitivo o arquivo, maior tende a ser o ganho de
+compressão, porque o overhead fixo do cabeçalho (a tabela de frequências)
+é diluído por mais dados úteis.
