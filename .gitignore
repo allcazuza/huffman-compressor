@@ -1,0 +1,10 @@
+# Artefatos de build
+*.o
+huffman
+
+# Arquivos temporários de teste
+*.huff
+!tests/test_files/*.huff
+
+# Sistema
+.DS_Store
